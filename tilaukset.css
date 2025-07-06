@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  padding: 20px;
+  color: #333;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.order {
+  background: white;
+  border-left: 8px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.order.waiting {
+  border-color: gold;
+}
+
+.order.ready {
+  border-color: cornflowerblue;
+}
+
+.order.delivered {
+  border-color: mediumseagreen;
+}
+
+.order h3 {
+  margin-top: 0;
+}
+
+.order p {
+  margin: 4px 0;
+}
+
+.status-select {
+  margin-top: 10px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}

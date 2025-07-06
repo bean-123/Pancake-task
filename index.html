@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <title>Pancake Factory</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="pancake.jpg" alt="Delicious pancakes" />
+        <div class="price-banner">
+          <span id="totalPrice">5,00€</span>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <h2>Build Your Pancake</h2>
+        <p>
+          Create your dream pancake combo - mix, match, and make it yours. Made
+          with <strong>love</strong> just for you ! <br /><br />
+          Try our <a href="#">Classic</a>, <a href="#">Chocolate</a>, or
+          <a href="#">Red Velvet</a>.
+        </p>
+
+        <form>
+          <label for="type">Choose pancake type:</label>
+          <select id="type">
+            <option value="5" data-price="5">Classic - 5,00€</option>
+            <option value="6" data-price="6">Chocolet - 6,00€</option>
+            <option value="7" data-price="7">Red Velvet - 7,00€</option>
+          </select>
+
+          <h3>Choose toppings (1,00€ / kpl):</h3>
+          <label>
+            <input type="checkbox" class="topping" data-price="1" />
+            Nuts
+          </label>
+          <label>
+            <input type="checkbox" class="topping" data-price="1" />
+            Banana
+          </label>
+          <label>
+            <input type="checkbox" class="topping" data-price="1" />
+            Syrup
+          </label>
+
+          <h3>Choose extra:</h3>
+          <label>
+            <input type="checkbox" class="extra" data-price="2" /> Whipcream -
+            2,00€
+          </label>
+          <label>
+            <input type="checkbox" class="extra" data-price="3" /> Ice-cream -
+            3,00€
+          </label>
+
+          <h3>Delivery:</h3>
+          <label>
+            <input type="radio" name="delivery" data-price="5" /> Delivery -
+            5,00€
+          </label>
+          <label>
+            <input type="radio" name="delivery" data-price="0" /> No delivery
+          </label>
+
+          <h3>Customer information:</h3>
+          <label for="customerName" class="customer">Name:</label>
+          <input
+            type="text"
+            id="customerName"
+            placeholder="Name here"
+            required
+          /><br />
+
+          <button id="showOrderSummaryButton" type="button">
+            Click to order
+          </button>
+        </form>
+
+        <!-- The Modal (popup) -->
+        <div id="orderSummaryModal" class="modal">
+          <div class="modal-content">
+            <span id="closeModalButton" class="close">&times;</span>
+            <div id="orderSummary"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
