@@ -89,4 +89,3 @@ LIVE SITE https://bean-123.github.io/Pancake-task/
 ## 🧁 Author
 
 Created by Amy Platt – part of the Pannukakku 3 project series.
-# Pancake-task
