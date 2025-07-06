@@ -33,7 +33,8 @@ Welcome to the **Pancake Factory** – a fun web application where users can bui
    - Displays an order summary in a modal popup.
    - Saves the order in `localStorage` with a unique ID and `waiting` status.
 4. Orders are **retrieved and displayed** in `tilaukset.html`.
-5. Admin (or user) can:
+5. Admin only can:
+   - **Open** page.
    - **Search** orders.
    - **Change status**.
    - **Delete** orders marked as `delivered`.
