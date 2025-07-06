@@ -84,7 +84,7 @@ Welcome to the **Pancake Factory** – a fun web application where users can bui
 
 ---
 
-LIVE SITE [https://bean-123.github.io/HTMLCSS_School/05_Week/Pancake_task/](https://bean-123.github.io/Pancake-task/)
+LIVE SITE (https://bean-123.github.io/Pancake-task/)
 
 ## 🧁 Author
 
