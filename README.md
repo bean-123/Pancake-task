@@ -54,6 +54,8 @@ Welcome to the **Pancake Factory** – a fun web application where users can bui
 ## 📸 Screenshot Preview
 
 - **Order Page:** Pancake builder UI with image and price banner.
+![pancake](https://github.com/user-attachments/assets/998d56fa-8833-4f4f-893b-8727eef15a6b)
+
 - **Order List Page:** List of orders with status dropdown and delete buttons.
 
 ---
