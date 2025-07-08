@@ -158,6 +158,7 @@ label {
   }
 }
 /*--- applying it to the price tag ----*/
+
 .pop-animation {
   animation: pop 0.3s ease;
 }
